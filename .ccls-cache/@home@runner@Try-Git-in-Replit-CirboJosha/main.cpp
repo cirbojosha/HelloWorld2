@@ -1,5 +1,10 @@
 /*
-Comment block
+Josha Cirbo
+9/11/2023
+CSC1029 Intro to Secure Coding
+Program name: Hello World 2
+Description:
+  Prints 'Hello World Josha Cirbo' to the console.
 */
 
 #include <iostream>
