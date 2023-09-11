@@ -4,16 +4,19 @@ Josha Cirbo
 CSC1029 Intro to Secure Coding
 Program name: Hello World 2
 Description:
-  Prints 'Hello World Josha Cirbo' to the console.
+  Gets user input and prints 'Hello World user_name' to the console.
 */
 
 #include <iostream>
 #include <string>
 
 int main() {
-  const std::string MESSAGE = "Hello World Josha Cirbo\n";
+  const std::string MESSAGE = "Hello World ";
+  std::string user_name;
 
-  std::cout << MESSAGE;
+  std::cout << "Enter your name: ";
+  std::cin >> user_name;
+  std::cout << MESSAGE << user_name << std::endl;
   
   return 0;
 }
