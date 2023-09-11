@@ -14,8 +14,11 @@ int main() {
   const std::string MESSAGE = "Hello World ";
   std::string user_name;
 
+  // Get user input. Use getline incase there are spaces in User name
   std::cout << "Enter your name: ";
-  std::cin >> user_name;
+  getline(std::cin, user_name);
+
+  // Output message to screen
   std::cout << MESSAGE << user_name << std::endl;
   
   return 0;
